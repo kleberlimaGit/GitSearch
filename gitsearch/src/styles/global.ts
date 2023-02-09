@@ -11,8 +11,6 @@ export const globalStyles = globalCss({
     '-webkit-font-smoothing': 'antialiased',
     backgroundColor: '$marineBlue',
     color: '$orange600',
-    width:'100vw',
-    height:'100vh',
   },
 
   'body, input, textarea, button': {
