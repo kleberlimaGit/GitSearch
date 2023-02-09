@@ -1,4 +1,5 @@
 import { styled } from "../styles"
+import { HomeContainer } from "./styles"
 
 const Button = styled('button', {
   backgroundColor: "$orange600", 
@@ -8,6 +9,8 @@ const Button = styled('button', {
 
 export default function Home() {
   return (
-      <h1>Hello World</h1>
+      <HomeContainer>
+        <h1>testando sa bagaça</h1>
+      </HomeContainer>
     )
 }
